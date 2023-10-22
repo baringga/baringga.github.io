@@ -14,9 +14,6 @@ a {
   transition: 0.3s all ease;
 }
 
-a:hover {
-  color: #000;
-}
 
 h1,
 h2,
@@ -24,30 +21,10 @@ h3,
 h4,
 h5,
 h6,
-.font-heading {
-  font-family: "Poppins", sans-serif;
-  color: #000;
-}
 
 .container {
   z-index: 2;
   position: relative;
-}
-
-.text-black {
-  color: #000 !important;
-}
-
-.text-primary {
-  color: #2d71a1 !important;
-}
-
-.border-top {
-  border-top: 1px solid #f2f2f2 !important;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #f2f2f2 !important;
 }
 
 figure figcaption {
@@ -72,7 +49,9 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
-
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
